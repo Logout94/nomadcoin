@@ -1,6 +1,10 @@
 package main
 
+var name1 string = "nico"
+
+const name2 string = "nico"
+
 func main() {
-	//var name string = "nico"
-	name := "nico"
+	name3 := "nico"
+	age := 12
 }
