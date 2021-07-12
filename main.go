@@ -1,10 +1,12 @@
 package main
 
-var name1 string = "nico"
+import "fmt"
 
-const name2 string = "nico"
+func plus(a int, b int) int {
+	return a + b
+}
 
 func main() {
-	name3 := "nico"
-	age := 12
+	result := plus(2, 2)
+	fmt.Println(result)
 }
