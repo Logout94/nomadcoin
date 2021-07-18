@@ -6,7 +6,7 @@ func main() {
 	// array have a finite
 	foods := [3]string{"potato", "pizza", "pasta"}
 
-	for _, dish := range foods {
-		fmt.Println(dish)
+	for i := 0; i < len(foods); i++ {
+		fmt.Println(foods[i])
 	}
 }
