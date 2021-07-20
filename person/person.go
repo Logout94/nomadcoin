@@ -12,3 +12,7 @@ func (p *Person) SetDetails(name string, age int) {
 	p.age = age
 	fmt.Println("SeeDetails 'nico':", p)
 }
+
+func (p Person) Name() string {
+	return p.name
+}
